@@ -1,11 +1,11 @@
-========================
+
 Usage
-========================
+
 Note: The computer you use should have WEKA and MRMD installed. The WEKA's
 installation site is http://lab.malab.cn/soft/MRMD/index.html
-==================
+
 CMD line
-==================
+
 
 $ java -jar extractor.jar neg.fa pos.fa feature.arff
 
