@@ -1,10 +1,10 @@
-## Usage of PromotePredictor
+# Usage of PromotePredictor
+## Abstract
+ 
+## Environment
 
-### 1. Introduction
-
-This package is the source code of the paper [*Computational prediction of sigma-54 promoters in bacterial genomes by integrating motif finding and machine learning strategies*.](https://ieeexplore.ieee.org/document/8316939 "*Computational prediction of sigma-54 promoters in bacterial genomes by integrating motif finding and machine learning strategies*") This  paper  develops  a  new  method to  predict  sigma-54  promoters  in  bacterial  genomes.  The new  method organically  integrates motif  finding  and  machine  learning  strategies to  capture  the  intrinsic  features  of sigma-54 promoters. 
-
-### 2. Installation
+# Usage
+## Installation
 
 Firstly, download MRMD to your working path from the website http://lab.malab.cn/soft/MRMD/index.html or use the code below in Unix:
 
@@ -27,7 +27,7 @@ cd ./PromotePredictor-master
 ```
 [WEKA](https://www.cs.waikato.ac.nz/~ml/weka/ "WEKA") should be used to further process the final result.
 
-### 3. Obtain the characteristic matrix
+## Obtain the characteristic matrix
 
 This step can obtain the characteristic matrix of each sample in the 79-dimensional feature,which can convert fasta file to arff file.
 
@@ -77,7 +77,7 @@ The example of output file:
 
 **Note: the number 1 or 0 in the end of each line indicates whether this sequences is a promoter or not.** 
 
-### 4.Dimension reduction
+## Dimension reduction
 
 MRMD can reduce the dimension of the input file.
 
@@ -110,12 +110,12 @@ The data in result file output.txt  have 4 columns with means:
 
 (4) The third column is the score
 
-### 5. Training model
+## Training model
 
 Import the final arff file to WEKA and train the model.
 
 
-### Contact
+## Contact
 
 Any questions, problems, bugs are welcome and should be dumped to
 Qin Ma <Qin.Ma@osumc.edu>
