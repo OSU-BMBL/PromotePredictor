@@ -1,7 +1,11 @@
 # Usage of PromotePredictor
 ## Abstract
- 
+Sigma factor, as a unit of RNA polymerase holoenzyme, is a critical factor in the process of gene transcriptional regulation. It recognizes the specific DNA sites and brings the core enzyme of RNA polymerase to the upstream regions of target genes. Therefore, the prediction of the promoters for a particular sigma factor is essential for interpreting functional genomic data and observation. This paper develops a new method to predict sigma-54 promoters in bacterial genomes. The new method organically integrates motif finding and machine learning strategies to capture the intrinsic features of sigma-54 promoters. The experiments on E. coli benchmark test set show that our method has good capability to distinguish sigma-54 promoters from surrounding or randomly selected DNA sequences. The applications of other three bacterial genomes indicate the potential robustness and applicative power of our method on a large number of bacterial genomes. 
+
+**Cite Us:** Bingqiang L, Ling H, Xiangrong L, Jichang W, Qin M. Computational prediction of sigma-54 promoters in bacterial genomes by integrating motif finding and machine learning strategies. *IEEE/ACM Transactions on Computational Biology and Bioinformatics* 
+2018;PP(99):1-1. DOI: 10.1109/TCBB.2018.2816032
 ## Environment
+Linux system is recommended. Ubuntu 18.04.2 LTS is used for testing. (5/10/2019)
 
 # Usage
 ## Installation
