@@ -1,4 +1,4 @@
-# Usage of PromotePredictor
+# A sigma-54 promoter predictor in prokaryotic genomes based on a machine learning method
 ## Abstract
 Sigma factor, as a unit of RNA polymerase holoenzyme, is a critical factor in the process of gene transcriptional regulation. It recognizes the specific DNA sites and brings the core enzyme of RNA polymerase to the upstream regions of target genes. Therefore, the prediction of the promoters for a particular sigma factor is essential for interpreting functional genomic data and observation. This paper develops a new method to predict sigma-54 promoters in bacterial genomes. The new method organically integrates motif finding and machine learning strategies to capture the intrinsic features of sigma-54 promoters. The experiments on E. coli benchmark test set show that our method has good capability to distinguish sigma-54 promoters from surrounding or randomly selected DNA sequences. The applications of other three bacterial genomes indicate the potential robustness and applicative power of our method on a large number of bacterial genomes. 
 
